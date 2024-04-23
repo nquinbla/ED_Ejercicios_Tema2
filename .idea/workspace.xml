@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf16192-e645-47f2-b6fc-4072de7d5a5e" name="Changes" comment="[Módulo C] código lampara">
-      <change afterPath="$PROJECT_DIR$/src/main/java/C_SimulaciónCompleja/Main_C.java" afterDir="false" />
+    <list default="true" id="faf16192-e645-47f2-b6fc-4072de7d5a5e" name="Changes" comment="[Módulo C] código main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/D_ModeladoObjComplejosYClases/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/D_ModeladoObjComplejosYClases/Batería.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/D_ModeladoObjComplejosYClases/Móvil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/D_ModeladoObjComplejosYClases/Pantalla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/D_ModeladoObjComplejosYClases/SistemaOperativo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713898657937</updated>
-      <workItem from="1713898661568" duration="2669000" />
+      <workItem from="1713898661568" duration="3077000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo A] código">
       <option name="closed" value="true" />
@@ -175,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713901258250</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[Módulo C] código main">
+      <option name="closed" value="true" />
+      <created>1713901367173</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713901367173</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +208,7 @@
     <MESSAGE value="[Módulo C] código radio y libro" />
     <MESSAGE value="[Módulo C] código reloj" />
     <MESSAGE value="[Módulo C] código lampara" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo C] código lampara" />
+    <MESSAGE value="[Módulo C] código main" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo C] código main" />
   </component>
 </project>
