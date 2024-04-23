@@ -12,7 +12,7 @@ public class Lámpara {
     public void turnOn() {
         this.isOn = true;
         System.out.println("La lámpara se enciende.");
-        this.connectedClock.triggerAlarm();
+        this.connectedClock.setAlarm();
     }
 
     public void turnOff() {

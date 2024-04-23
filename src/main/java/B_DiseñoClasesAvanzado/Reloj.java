@@ -12,6 +12,7 @@ public class Reloj {
     public void setAlarm() {
         this.alarmOn = true;
         System.out.println("La alarma se pone.");
+        this.triggerAlarm();
     }
 
     public void triggerAlarm() {
