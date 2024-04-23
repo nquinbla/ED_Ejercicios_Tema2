@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+typedef struct {
+    void (*makeSound)(void);
+} Animal;
+
+void animalSound() {
+    printf("The animal makes a sound\n");
+}
+
+typedef struct {
+    Animal base;
+} Dog;
+
+void dogSound() {
+    printf("The dog barks\n");
+}
+
+int main() {
+    Dog dog;
+    dog.base.makeSound = dogSound;
+    dog.base.makeSound();
+    return 0;
+}
