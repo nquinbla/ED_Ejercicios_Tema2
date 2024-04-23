@@ -1,9 +1,10 @@
 package E_HerenciaYRelaciones;
 
 public class Camion extends Terrestre{
-    private String matrícula;
-    private String marca;
-    private String modelo;
+    @Override
+    public void mover() {
+        System.out.println("El camión se está moviendo por la autopista...");
+    }
     private int año;
     private int numRuedas;
     private int numEjes;
@@ -12,38 +13,11 @@ public class Camion extends Terrestre{
 
     public Camion(String matrícula, String marca, String modelo, int año, int numRuedas, int numEjes, String transmisión, int capacidadCarga) {
         super(matrícula, marca, modelo, año, numRuedas);
-        this.matrícula = matrícula;
-        this.marca = marca;
-        this.modelo = modelo;
         this.año = año;
         this.numRuedas = numRuedas;
         this.numEjes = numEjes;
         this.transmisión = transmisión;
         this.capacidadCarga = capacidadCarga;
-    }
-
-    public String getMatrícula() {
-        return matrícula;
-    }
-
-    public void setMatrícula(String matrícula) {
-        this.matrícula = matrícula;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public String getModelo() {
-        return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
     }
 
     public int getAño() {
@@ -87,5 +61,15 @@ public class Camion extends Terrestre{
         this.capacidadCarga = capacidadCarga;
     }
 
+    @Override
+    public String toString() {
+        return "Camion{" +
+                ", año=" + año +
+                ", numRuedas=" + numRuedas +
+                ", numEjes=" + numEjes +
+                ", transmisión='" + transmisión + '\'' +
+                ", capacidadCarga=" + capacidadCarga +
+                "} " + super.toString();
+    }
 
 }
