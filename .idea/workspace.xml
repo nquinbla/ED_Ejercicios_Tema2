@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf16192-e645-47f2-b6fc-4072de7d5a5e" name="Changes" comment="[Módulo B] ajustes pt3">
-      <change beforePath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Lámpara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Lámpara.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Main_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Main_B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Reloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/B_DiseñoClasesAvanzado/Reloj.java" afterDir="false" />
+    <list default="true" id="faf16192-e645-47f2-b6fc-4072de7d5a5e" name="Changes" comment="[Módulo C] código lampara">
+      <change afterPath="$PROJECT_DIR$/src/main/java/C_SimulaciónCompleja/Main_C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,7 @@
   "keyToString": {
     "Application.Código_Java.executor": "Run",
     "Application.Main_B.executor": "Run",
+    "Application.Main_C.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713898657937</updated>
-      <workItem from="1713898661568" duration="2351000" />
+      <workItem from="1713898661568" duration="2669000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo A] código">
       <option name="closed" value="true" />
@@ -129,7 +127,55 @@
       <option name="project" value="LOCAL" />
       <updated>1713900950303</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Módulo B] ajustes pt3">
+      <option name="closed" value="true" />
+      <created>1713901014691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713901014691</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[Módulo C] código radio">
+      <option name="closed" value="true" />
+      <created>1713901134980</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713901134980</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[Módulo C] código cafetera">
+      <option name="closed" value="true" />
+      <created>1713901143887</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713901143887</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[Módulo C] código radio y libro">
+      <option name="closed" value="true" />
+      <created>1713901188318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713901188318</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[Módulo C] código reloj">
+      <option name="closed" value="true" />
+      <created>1713901231615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713901231615</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[Módulo C] código lampara">
+      <option name="closed" value="true" />
+      <created>1713901258250</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713901258250</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +190,11 @@
     <MESSAGE value="[Módulo B] ajustes" />
     <MESSAGE value="[Módulo B] ajustes pt2" />
     <MESSAGE value="[Módulo B] ajustes pt3" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo B] ajustes pt3" />
+    <MESSAGE value="[Módulo C] código radio" />
+    <MESSAGE value="[Módulo C] código cafetera" />
+    <MESSAGE value="[Módulo C] código radio y libro" />
+    <MESSAGE value="[Módulo C] código reloj" />
+    <MESSAGE value="[Módulo C] código lampara" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo C] código lampara" />
   </component>
 </project>
