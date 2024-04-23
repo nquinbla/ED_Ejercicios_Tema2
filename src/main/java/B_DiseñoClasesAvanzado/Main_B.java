@@ -5,10 +5,10 @@ public class Main_B {
         // Crear un nuevo libro
         Libro book = new Libro("Don Quixote", null);
 
-        // Crear un nuevo reloj que está conectado al libro
+        // Crear un nuevo Reloj que está conectado al libro
         Reloj clock = new Reloj(book);
 
-        // Crear una nueva lámpara que está conectada al reloj
+        // Crear una nueva lámpara que está conectada al Reloj
         Lámpara lamp = new Lámpara(clock);
 
         // Conectar el libro a la lámpara
