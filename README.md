@@ -1,4 +1,5 @@
 # ESTRUCTURA DE DATOS: EJERCICIOS TEMA 2
+Ejerciicos Nerea Quintanilla Blanco de la unidad 2 de Estructura de Datos
 
 ## 1. Análisis de la Evolución de la Abstracción
 
