@@ -1,23 +1,23 @@
 package B_DiseñoClasesAvanzado;
-import B_DiseñoClasesAvanzado.Lámpara;
+
 public class Reloj {
     private boolean alarmOn;
-    private Lámpara connectedLamp;
+    private Libro connectedBook;
 
-    public Reloj(Lámpara lamp) {
+    public Reloj(Libro book) {
         this.alarmOn = false;
-        this.connectedLamp = lamp;
+        this.connectedBook = book;
     }
 
     public void setAlarm() {
         this.alarmOn = true;
-        System.out.println("The alarm is set.");
+        System.out.println("La alarma se pone.");
     }
 
     public void triggerAlarm() {
         if (this.alarmOn) {
-            System.out.println("The alarm is ringing.");
-            this.connectedLamp.turnOn();
+            System.out.println("Suena la alarma.");
+            this.connectedBook.fall();
         }
     }
 }

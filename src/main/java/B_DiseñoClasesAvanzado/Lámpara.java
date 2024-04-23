@@ -2,18 +2,21 @@ package B_DiseñoClasesAvanzado;
 
 public class Lámpara {
     private boolean isOn;
+    private Reloj connectedClock;
 
-    public Lámpara() {
+    public Lámpara(Reloj clock) {
         this.isOn = false;
+        this.connectedClock = clock;
     }
 
     public void turnOn() {
         this.isOn = true;
-        System.out.println("The lamp is turned on.");
+        System.out.println("La lámpara se enciende.");
+        this.connectedClock.triggerAlarm();
     }
 
     public void turnOff() {
         this.isOn = false;
-        System.out.println("The lamp is turned off.");
+        System.out.println("La lámpara se apaga.");
     }
 }
