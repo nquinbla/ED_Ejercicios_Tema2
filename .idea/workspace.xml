@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf16192-e645-47f2-b6fc-4072de7d5a5e" name="Changes" comment="[Módulo D] código">
-      <change afterPath="$PROJECT_DIR$/src/main/java/E_HerenciaYRelaciones/Movible.java" afterDir="false" />
+    <list default="true" id="faf16192-e645-47f2-b6fc-4072de7d5a5e" name="Changes" comment="[Módulo E] código ajustes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_HerenciaYRelaciones/Bicicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_HerenciaYRelaciones/Bicicleta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="E_HerenciaYRelaciones" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nerea\OneDrive\Documentos\GitHub\ED_Ejercicios_Tema2\src\main\java" />
     </key>
@@ -71,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713898657937</updated>
-      <workItem from="1713898661568" duration="3597000" />
+      <workItem from="1713898661568" duration="4691000" />
     </task>
     <task id="LOCAL-00001" summary="[Módulo A] código">
       <option name="closed" value="true" />
@@ -193,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713901864525</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[Módulo E] código movible ya utomovil">
+      <option name="closed" value="true" />
+      <created>1713902358343</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713902358343</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[Módulo E] código ajustes">
+      <option name="closed" value="true" />
+      <created>1713902771833</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713902771833</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +234,8 @@
     <MESSAGE value="[Módulo C] código lampara" />
     <MESSAGE value="[Módulo C] código main" />
     <MESSAGE value="[Módulo D] código" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Módulo D] código" />
+    <MESSAGE value="[Módulo E] código movible ya utomovil" />
+    <MESSAGE value="[Módulo E] código ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Módulo E] código ajustes" />
   </component>
 </project>

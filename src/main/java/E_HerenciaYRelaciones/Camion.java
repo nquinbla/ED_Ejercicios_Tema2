@@ -1,6 +1,6 @@
 package E_HerenciaYRelaciones;
 
-public class Camion {
+public class Camion extends Terrestre{
     private String matrícula;
     private String marca;
     private String modelo;
@@ -11,6 +11,7 @@ public class Camion {
     private int capacidadCarga;
 
     public Camion(String matrícula, String marca, String modelo, int año, int numRuedas, int numEjes, String transmisión, int capacidadCarga) {
+        super(matrícula, marca, modelo, año, numRuedas);
         this.matrícula = matrícula;
         this.marca = marca;
         this.modelo = modelo;

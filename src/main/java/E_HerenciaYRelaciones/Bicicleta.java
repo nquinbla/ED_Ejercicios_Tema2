@@ -1,13 +1,14 @@
 package E_HerenciaYRelaciones;
 
-public class Bicicleta {
+public class Bicicleta extends Terrestre{
     private String matrícula;
     private String marca;
     private String modelo;
     private int año;
     private int numRuedas;
 
-    public Bicicleta(String matrícula, String marca, String modelo, int año, int numRuedas) {
+    public Bicicleta(String matrícula, String marca, String modelo, int año, int numRuedas, String montaña) {
+        super(matrícula, marca, modelo, año, numRuedas);
         this.matrícula = matrícula;
         this.marca = marca;
         this.modelo = modelo;
