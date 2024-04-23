@@ -13,8 +13,9 @@ public class Libro {
         System.out.println("Leyendo el libro: " + this.title);
     }
 
-    public void fall() {
+    public void fall() throws InterruptedException {
         System.out.println("El libro se cae.");
+        Thread.sleep(1000); // Espera 1 segundo
         this.connectedLamp.turnOff();
     }
 }

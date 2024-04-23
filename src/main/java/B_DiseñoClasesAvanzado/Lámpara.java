@@ -9,14 +9,16 @@ public class Lámpara {
         this.connectedClock = clock;
     }
 
-    public void turnOn() {
+    public void turnOn() throws InterruptedException {
         this.isOn = true;
         System.out.println("La lámpara se enciende.");
+        Thread.sleep(1000); // Espera 1 segundo
         this.connectedClock.setAlarm();
     }
 
-    public void turnOff() {
+    public void turnOff() throws InterruptedException {
         this.isOn = false;
         System.out.println("La lámpara se apaga.");
+        Thread.sleep(1000); // Espera 1 segundo
     }
 }

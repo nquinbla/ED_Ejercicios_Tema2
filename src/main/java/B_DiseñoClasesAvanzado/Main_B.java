@@ -1,7 +1,7 @@
 package B_DiseñoClasesAvanzado;
 
 public class Main_B {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // Crear un nuevo libro
         Libro book = new Libro("Don Quixote", null);
 
